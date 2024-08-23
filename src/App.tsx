@@ -42,7 +42,7 @@ function App() {
   }, []);
 
   return (
-    <div className="bg-gray-800 w-full h-screen">
+    <div className="w-full h-screen">
       <Navbar />
       <div className="w-full flex flex-col justify-center p-12">
         <span className="text-2xl text-white font-bold my-6">
