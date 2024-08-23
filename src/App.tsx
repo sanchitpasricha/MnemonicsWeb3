@@ -6,6 +6,11 @@ import nacl from "tweetnacl";
 
 import "./App.css";
 
+declare global {
+  interface Window {
+    Buffer: typeof Buffer;
+  }
+}
 window.Buffer = Buffer;
 
 interface Key {
